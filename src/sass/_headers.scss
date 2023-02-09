@@ -1,0 +1,28 @@
+
+header{
+    @include flexCenter(column, $fullWindow);
+    background-color: $lightBg;
+    padding: 10px;
+    
+    button{
+        border: none;
+        border-radius: .5rem;
+        padding:$paddingBtn;
+        background-color: $primaryBtn;
+        color:$textLight;
+        &:hover{
+            background-color: $primaryBtnHover;
+        }
+    }
+
+    &[data-ison = 'false']{
+        display:none;
+    }
+}
+
+article{
+    // @include flexCenter(column, $halfWindow);  
+    @extend header;
+    background-color: $darkBg;
+    color:$textLight
+}

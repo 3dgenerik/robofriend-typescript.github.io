@@ -1,0 +1,30 @@
+
+$primaryBtn: rgb(13, 90, 223);
+$primaryBtnHover: rgb(18, 81, 191);
+$secondaryBtn: rgb(92, 99, 104);
+
+$darkBg: rgb(35, 36, 39);
+$lightBg: rgb(214, 219, 232);
+
+$paddingBtn: .5rem;
+
+$textLight:rgb(232, 239, 241);
+$textDark:rgb(39, 40, 42);
+
+$fullWindow:100vh;
+$halfWindow:50vh;
+
+$new-colors: (
+    "primary": tomato,
+    "danger": teal,
+    "secondary": $darkBg
+    );
+
+@import "../../node_modules/bootstrap/scss/_functions";
+@import "../../node_modules/bootstrap/scss/_variables";
+    
+// $theme-colors:map-merge($theme-colors, $new-colors);
+
+
+@import "../../node_modules/bootstrap/scss/bootstrap.scss";
+
