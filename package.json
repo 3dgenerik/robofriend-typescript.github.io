@@ -1,6 +1,6 @@
 {
-  "homepage":"http://3dgenerik.github.io/robofriends-typescript.github.io",
   "name": "robofriends-01",
+  "homepage":"http://3dgenerik.github.io/robofriends-typescript.github.io",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
