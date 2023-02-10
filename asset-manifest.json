@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/robofriends-typescript.github.io/static/css/main.fa414694.css",
+    "main.js": "/robofriends-typescript.github.io/static/js/main.02a450f7.js",
+    "index.html": "/robofriends-typescript.github.io/index.html",
+    "main.fa414694.css.map": "/robofriends-typescript.github.io/static/css/main.fa414694.css.map",
+    "main.02a450f7.js.map": "/robofriends-typescript.github.io/static/js/main.02a450f7.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.fa414694.css",
+    "static/js/main.02a450f7.js"
+  ]
+}
