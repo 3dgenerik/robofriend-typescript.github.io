@@ -5,6 +5,7 @@ import { rootState } from "../../redux/store";
 import { IRobotInfo } from "./robotsSlice";
 import { RobotCards } from "../robotCards/RobotCards";
 import './robots.style.scss'
+import { Scroll } from "../scroll/Scroll";
 
 interface IRobotsProps {
     url:string
@@ -46,11 +47,13 @@ export const Robots: React.FC<IRobotsProps> = ({url}) => {
                     placeholder="...highlight robots"
                     />
             </div>
-            <div className="robot-container m-3">
-                {
-                    isLoaded ? <p>...loading</p> : robotCards
-                } 
-            </div>
+            {/* <Scroll> */}
+                <div className="robot-container m-2">
+                    {
+                        isLoaded ? <p>...loading</p> : robotCards
+                    } 
+                </div>
+            {/* </Scroll> */}
         </>
     )
 }
